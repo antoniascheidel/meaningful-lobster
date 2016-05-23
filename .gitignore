@@ -1,0 +1,8 @@
+led python code files and OS/editor temp files
+*.DS_Store
+*.pyc
+.*.swp
+*~
+
+# python virtualenv
+/.pyenv/
