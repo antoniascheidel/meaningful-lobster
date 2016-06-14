@@ -5,6 +5,7 @@
 Misc. utility functions! Mostly logging right now.
 """
 
+# TODO: Create enum
 LOG_COLORS = {
     'CRITICAL': 'red',
     'DEBUG': 'cyan',

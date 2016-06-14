@@ -13,7 +13,7 @@ import requests
 import time
 
 from bs4 import BeautifulSoup
-from main.util import log
+from common.util import log
 
 description = 'Scrapes a list of word problems and stores questions and answers in json.'
 parser = argparse.ArgumentParser(description=description)
