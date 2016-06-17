@@ -78,8 +78,8 @@ def parse_pdf(pdf_filename):
 
     if page_json:
         pdf_name = pdf_filename[:-len('.pdf')][len(PDF_DIRECTORY) + 1:],
-        codecs.open('output/%s.json' % pdf_name, 'wb').write(
-            json.dumps(page_json))
+        with codecs.open('output/%s.json' % pdf_name, 'wb') as file:
+            file.write(json.dumps(page_json))
 
 
 def process_component(text, number):
