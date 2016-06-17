@@ -1,0 +1,10 @@
+approve_by_comment: true
+approve_regex: '^(Approved|:shipit:|:\+1:|:LGTM:|:lgtm:)'
+reject_regex: ^Rejected
+reset_on_push: true
+reviewers:
+  members:
+  - antoniascheidel
+  - lownesc
+  name: default
+  required: 1
