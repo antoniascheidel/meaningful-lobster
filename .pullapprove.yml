@@ -1,6 +1,6 @@
 approve_by_comment: true
-approve_regex: '^(Approved|:shipit:|:\+1:|:LGTM:|:lgtm:)'
-reject_regex: ^Rejected
+approve_regex: '^(Approved|:shipit:|:\+1:|LGTM|lgtm|approved|+1|+2)'
+reject_regex: '^(Rejected|rejected|-1|-2|:-1:)'
 reset_on_push: true
 reviewers:
   members:
